@@ -15,11 +15,12 @@ header {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .titulo-logo {
      
   font-family: "Dancing Script", cursive;
   font-size: 58px;
-  color: #e26c9f;
+  color: #933c61;
 }
 
 .agenda {
@@ -38,6 +39,38 @@ h1 {
   padding: 40px;
   border-radius: 50px;
   position: relative;
+}
+
+/* Fade-in padrão */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Efeito pulse no botão Agende Aqui */
+.pulse {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Menu mobile (caso use) */
+.nav {
+    transition: 0.3s;
+    transform: translateX(100%);
+}
+
+.nav.active {
+    transform: translateX(0);
+}
+
+.menu-btn.open {
+    transform: rotate(90deg);
 }
 
   .servicos::before {
@@ -61,20 +94,23 @@ h1 {
   font-size: 1.1em;
 }
 
-button {
-  background: #4b2e2b;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 30px;
-  font-size: 1.1em;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background 0.3s;
+
+.btn-agendar {
+  display: inline-block;
+  background-color: #c47aa6;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0 .3s;
 }
 
-button:hover {
-  background: #6a3f3b;
+.btn-agendar:hover {
+  background-color: #a85d8c;
+  transform: scale(1 .05);
+  
 }
 
 .galeria {
