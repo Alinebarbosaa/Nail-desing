@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdf9f8;
+  color: #4b2e2b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #fff4f3, #fce5e3);
+  padding: 40px 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-logo {
+     
+  font-family: "Dancing Script", cursive;
+  font-size: 58px;
+  color: #e26c9f;
+}
+
+.agenda {
+  font-family:  "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+.servicos {
+  width: 40%;
+  margin: 0 auto;
+  padding: 50px;
+  background-image: url("./img/06.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 50px;
+  position: relative;
+}
+
+  .servicos::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: inherit;
+    z-index: 0;
+  }
+
+  .servicos > * {
+    position: relative;
+    z-index: 1;
+  }
+
+.opcoes label {
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  background: #4b2e2b;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #6a3f3b;
+}
+
+.galeria {
+  margin: 50px 0;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.imagens img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.imagens img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: #fce5e3;
+  padding: 15px;
+  font-size: 0.9em;
+}
