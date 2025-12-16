@@ -80,11 +80,13 @@ h1 {
     background: rgba(255, 255, 255, 0.6);
     border-radius: inherit;
     z-index: 0;
+    border: 1px solid #f2c1cc;
   }
 
   .servicos > * {
     position: relative;
     z-index: 1;
+    
   }
 
 .opcoes label {
@@ -92,6 +94,8 @@ h1 {
   text-align: left;
   margin: 10px 0;
   font-size: 1.1em;
+  border: 1px solid #f2c1cc;
+  
 }
 
 
@@ -105,16 +109,18 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   transition: 0 .3s;
+  border: 3px solid #f2c1cc;
 }
 
 .btn-agendar:hover {
   background-color: #a85d8c;
   transform: scale(1 .05);
-  
+  border: 2px solid #f2c1cc;
 }
 
 .galeria {
   margin: 50px 0;
+  border: 3px solid #f2c1cc;
 }
 
 .imagens {
@@ -131,6 +137,8 @@ h1 {
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: transform 0.3s;
+  border: 5px solid #f2c1cc;
+
 }
 
 .imagens img:hover {
