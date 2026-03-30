@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #fdf9f8;
@@ -112,11 +113,6 @@ h1 {
   border: 3px solid #f2c1cc;
 }
 
-.btn-agendar:hover {
-  background-color: #a85d8c;
-  transform: scale(1 .05);
-  border: 2px solid #f2c1cc;
-}
 
 .galeria {
   margin: 50px 0;
@@ -149,4 +145,20 @@ footer {
   background: #fce5e3;
   padding: 15px;
   font-size: 0.9em;
+}
+
+.btn-whatsapp{
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover{
+    opacity: 0.9;
 }
